@@ -1,0 +1,4 @@
+test_node_otto:
+    ros__parameters:
+        some_int: 42
+        a_string: "Hello world"
