@@ -23,6 +23,7 @@ find_package(ament_cmake REQUIRED)
 
 find_package(rclcpp REQUIRED)
 find_package(rclcpp_components REQUIRED)
+find_package(std_msgs REQUIRED)
 
 add_library(test_component SHARED src/test_component.cpp)
 ament_target_dependencies(test_component
